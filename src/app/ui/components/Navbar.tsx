@@ -17,31 +17,31 @@ function NavBar() {
                     </div>
 
                     <div className="flex items-center space-x-6">
-                        <Link href="/" className="text-gray-700 hover:text-gray-900">
+                        <Link href="/" className="text-gray-700 hover:text-lid-red transition ease delay-150">
                             INICIO
                         </Link>
-                        <Link href="/productos/ProductosAlta" className="text-gray-700 hover:text-gray-900">
+                        <Link href="/productos/ProductosAlta" className="text-gray-700 hover:text-lid-red transition ease delay-150">
                             Agregar Producto
                         </Link>
-                        <Link href="/products" className="text-gray-700 hover:text-gray-900">
+                        <Link href="/products" className="text-gray-700 hover:text-lid-red transition ease delay-150">
                             PRODUCTOS
                         </Link>
-                        <Link href="/Nosotros" className="text-gray-700 hover:text-gray-900">
+                        <Link href="/Nosotros" className="text-gray-700 hover:text-lid-red transition ease delay-150">
                             NOSOTROS
                         </Link>
-                        <Link href="/Nosotros" className="text-gray-700 hover:text-gray-900">
+                        <Link href="/Nosotros" className="text-gray-700 hover:text-lid-red transition ease delay-150">
                             CÓMO COMPRAR
                         </Link>
-                        <Link href="/Nosotros" className="text-gray-700 hover:text-gray-900">
+                        <Link href="/Nosotros" className="text-gray-700 hover:text-lid-red transition ease delay-150">
                             POLÍTICA DE DEVOLUCIÓN
                         </Link>
-                        <Link href="/Nosotros" className="text-gray-700 hover:text-gray-900">
+                        <Link href="/Nosotros" className="text-gray-700 hover:text-lid-red transition ease delay-25">
                             CATALOGO ANDREA PELLEGRINO
                         </Link>
 
                         <div>
                                 <div className="relative">
-                                    <button className="text-gray-700 hover:text-gray-900">AA</button>
+                                    <button className="text-gray-700 hover:text-lid-red">AA</button>
                                     <div className="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg">
                                         <Link href="/alta" className="block px-4 py-2 hover:bg-gray-100">
                                             Registrarse

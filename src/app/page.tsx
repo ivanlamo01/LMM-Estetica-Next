@@ -1,14 +1,36 @@
 import ControlledCarousel from "./ui/components/carousel";
-import slide1 from "@/Assets/1-slide-1635871910806-4683866691-3413156dfc93e58fe2fef435e5e6845c1635871925-1920-1920.webp";
-import slide2 from "@/Assets/1-slide-1635871910808-5880505384-de4caa47f5cd60aeb10f2755adcc71331635871929-1920-1920.webp";
-import slide3 from "@/Assets/1-slide-1654192557826-2839333007-f795d413869951bb7f11bee16aeaa7631654192564-1920-1920.webp"
+import slide1 from "@/Assets/dherma-science-treatment-oil-lidherma-aceite-antiage-toque-seco-1.jpg";
+import slide2 from "@/Assets/Combo-Hyaluronic-4D-Plus-woo-scaled.webp";
+import styles from "./styles/main.module.css"
+import { kaushan } from "@/lib/fonts";
 
 export default function Home() {
-  const images = [slide1.src, slide2.src, slide3.src];
+  const images = [slide1.src, slide2.src]
 
   return (
     <>
-      <ControlledCarousel images={images} />
+    <div className={styles.home}>
+      <main className={styles.main}>
+          <section className={styles.text}>
+            <span className={`${kaushan.className} antialiased text-lid-red` }>lmm</span>
+            <span>Estetica</span>
+            <span className={styles.text3}>Centro de Estetica y Beauty Store</span>
+            <span className={styles.text4}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam hic necessitatibus perferendis assumenda animi cum, dolor consectetur qui dolorem inventore aspernatur, earum laboriosam asperiores rem, veniam facere. Aliquid, doloremque dolorum!</span>
+            <div className={styles.buttons}>
+              <button className={styles.prodButton}>
+                Buscar productos
+              </button>
+              <button className={styles.prodButton}>
+                Nuestros Servicios
+              </button>
+            </div>
+          </section>
+        </main>
+        <div className={styles.car}>
+            <ControlledCarousel images={images} />
+        </div>
+    </div>
+
     </>
   );
 }
